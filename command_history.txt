@@ -1,0 +1,10 @@
+(.venv) PS C:\Users\surya\Downloads> echo $env:GOOGLE_API_KEY
+>> "y" | adk create sample-agent --model gemini-2.5-flash-lite --api_key $env:GOOGLE_API_KEY
+your_api_key_here
+Non-empty folder already exist: 'C:\your\path'
+Override existing content? [y/N]:
+Agent created in C:\your\path:
+- .env
+- __init__.py
+- agent.py
+#(.venv) PS C:\Users\surya\Downloads> adk web
